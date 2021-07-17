@@ -1,0 +1,42 @@
+
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+#title-box {
+    width: 45%;
+    height: 6rem;
+    background-color: #cd596b;
+    border: 4px solid #42001b;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+h1, h2 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1 {
+    height: auto;
+    width: 100%;
+    background-color: maroon;
+    color: #ece4d8;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.meme {
+    width: 25%;
+    padding: 2%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    text-align: center;
+}
+

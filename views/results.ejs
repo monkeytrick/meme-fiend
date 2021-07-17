@@ -1,0 +1,20 @@
+
+<% include partials/header.ejs %>
+
+<h2>Top <span><%=range%></span> memes of 2019</h1>
+
+<div id="container"><% results.forEach(function(meme){ %>
+    <div class='meme'>
+        <p><%= results.indexOf(meme) + 1 %></p>
+        <div class='meme-name'><%= meme['name']%></div>
+        <img src="<%= meme['url']%>">
+    </div>
+<% }) %>
+</div>
+
+<% include partials/footer.ejs %>
+
+
+
+
+
